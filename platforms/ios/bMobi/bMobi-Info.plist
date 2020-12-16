@@ -51,6 +51,8 @@
 		<dict>
 			<key>www.binghamton.edu</key>
 			<dict/>
+			<key>my.binghamton.edu</key>
+			<dict/>
 		</dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>

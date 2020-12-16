@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="https://www.binghamton.edu/*" />
+    <allow-navigation href="https://www.binghamton.edu/bmobi*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -23,4 +23,6 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <icon src="icon.png" />
+    <splash src="splash.png" />
 </widget>

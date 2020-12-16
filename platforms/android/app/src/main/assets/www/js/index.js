@@ -30,7 +30,7 @@ function onDeviceReady() {
 
     console.log(navigator.connection.type);
     if (navigator.connection.type !== Connection.NONE) {
-        window.location = 'https://www.binghamton.edu/communications-and-marketing/what-we-do/bmobi.html';
+        // window.location = 'https://www.binghamton.edu/communications-and-marketing/what-we-do/bmobi.html';
     }
     document.addEventListener("offline", function(e){
         if (network_status === 'online') {

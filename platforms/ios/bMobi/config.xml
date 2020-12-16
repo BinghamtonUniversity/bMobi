@@ -37,13 +37,16 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="https://www.binghamton.edu/*" />
+    <allow-navigation href="https://www.binghamton.edu/bmobi*" />
+    <allow-navigation href="https://my.binghamton.edu/ar/app/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <icon src="icon.png" />
+    <splash src="splash.png" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <preference name="AllowInlineMediaPlayback" value="false" />
