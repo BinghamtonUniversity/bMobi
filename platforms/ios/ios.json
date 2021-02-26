@@ -18,10 +18,10 @@
     }
   },
   "installed_plugins": {
-    "cordova-plugin-network-information": {
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "edu.binghamton.bmobi"
     },
-    "cordova-plugin-whitelist": {
+    "cordova-plugin-network-information": {
       "PACKAGE_NAME": "edu.binghamton.bmobi"
     }
   },
@@ -46,7 +46,7 @@
     }
   ],
   "plugin_metadata": {
-    "cordova-plugin-network-information": "2.0.2",
-    "cordova-plugin-whitelist": "1.3.4"
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-network-information": "2.0.2"
   }
 }

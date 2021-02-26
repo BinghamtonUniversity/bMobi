@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="edu.binghamton.bmobi" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
-    </feature>
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
     <name>bMobi</name>
     <description>
@@ -16,16 +16,15 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="https://www.binghamton.edu/bmobi*" />
-    <allow-navigation href="https://my.binghamton.edu/ar/app/*" />
+    <allow-navigation href="https://www.binghamton.edu/communications-and-marketing/what-we-do/bmobi*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
     <icon src="icon.png" />
     <splash src="splash.png" />
-    <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

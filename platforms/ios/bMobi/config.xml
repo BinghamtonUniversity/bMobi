@@ -37,21 +37,18 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="https://www.binghamton.edu/bmobi*" />
-    <allow-navigation href="https://my.binghamton.edu/ar/app/*" />
+    <allow-navigation href="https://www.binghamton.edu/communications-and-marketing/what-we-do/bmobi*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <icon src="icon.png" />
-    <splash src="splash.png" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
-    <preference name="DisallowOverscroll" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
     <preference name="EnableViewportScale" value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
     <preference name="MediaTypesRequiringUserActionForPlayback" value="none" />
